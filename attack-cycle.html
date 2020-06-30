@@ -103,6 +103,7 @@
         height: 100%;
         padding: 1rem;
         box-sizing: border-box;
+        /*         border-right: 2px solid white; */
         opacity: 0.85;
         display: block;
         color: white;
@@ -111,6 +112,7 @@
       }
       .navigation a:hover {
         opacity: 1;
+        background-color:#202f83;
       }
       .wrapper {
         box-sizing: border-box;
@@ -129,6 +131,32 @@
       p {
         padding: 0 1rem 1rem 1rem;
       }
+      ol.list-para-parent{
+        list-style: none;
+        padding: 0;
+        counter-reset: first-instance;
+      }
+      li.list-paragraph{
+        counter-increment: first-instance;
+        padding: 0 1.5rem 2rem 1.5rem;
+      }
+      span.sub-headings::before{
+        color: #344397;
+        position: absolute;
+        top:0;
+        left: -1em;
+        content: counter(first-instance)". ";
+      }
+      span.sub-headings{
+        position: relative;
+        font-size: 2rem;
+        display: block;
+        font-weight: bold;
+        margin-bottom:0.5rem;
+      }
+      span.sub-headings::after{
+        content: ":";
+      }
       footer {
         height: 5rem;
         background-color: #344397;
@@ -139,7 +167,8 @@
     <header class="navigation-parent">
       <nav>
         <ul class="navigation">
-          <li><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Attack Cycle</a></li>
         </ul>
       </nav>
     </header>
@@ -147,79 +176,22 @@
       <amp-img
         class="hero"
         alt="Social Engineering"
-        src="assets/index-hero.jpeg"
+        src="attack-cycle-hero.jpg"
         width="900"
         height="675"
         layout="responsive"
       >
       </amp-img>
       <article class="wrapper">
-        <h1>Social Engineering</h1>
-        <p>
-          Ever wondered how people got trapped in frauds like paid on some fake
-          website which looks almost similar to the original one or clicking on
-          some link that takes away all your money from bank. Well, this is not
-          at all any magic that they perform but a well planned attack which in
-          technical terms is called as social engineering attack.This website is
-          gonna help you to get aware of most of these attacks so that you can't
-          be the next victim of hackers.
-        </p>
-
-        <h2>What is Social Engineering?</h2>
-        <p>
-          You can find best answers on google for this in techinal terms,
-          however, the simplest answer can be like it is a kind of human mind or
-          physicology hacking. We have already seen this as an art where artist
-          guesses number or name in your mind but getting your sensitive
-          data(like password,bank details etc) out of your mind for illegal
-          purpose makes it a crime thats what these hackers do. Even the
-          greatest hacker of all time Kevin D. Mitnick has said there's nothing
-          that can't be hacked with social engineering.
-          <br />
-          So basically what social engineer is doing is winning your trust here
-          and letting you do what he wants. And here you got hacked.
-        </p>
-
-        <h2>Let's understand with some example :</h2>
-        <p>
-          Suppose you are an employee of a company and you need to show you
-          identity card and also you need to pass door with biometric lock.Now
-          how hacker will get into company? Here he can use you.Yes you.
-          <br />
-          He will make a fake identity card which looks similar to yours( by
-          information gathering technique).Then he will carry bags in both of
-          his hands to seem like a helpless person.Then you will see that he is
-          wearing identity card and think he must be an employee of your
-          company, and its human nature to help a helpless person thus you will
-          open door for him and he is in.
-        </p>
-
-        <p>
-          On the phone, social engineer might call and pretend to be a fellow
-          employee or a trusted outside authority (such as law enforcement or an
-          auditor).
-        </p>
-
-        <p>
-          Online, Social networking sites have made social engineering attacks
-          easier to conduct. Today's attackers can go to sites like LinkedIn and
-          find all of the users that work at a company and gather plenty of
-          detailed information that can be used to further for an attack.
-        </p>
-        <span class="dev-date"
-          >work from 29 july end here
-          <hr
-        /></span>
         <p>
           People easily got facilitate with some attractive things like beauty ,
           profit etc shown over digital world which in actual is a trap. In the
           digital world it is necessary for every professional, businessman and
           student to see both positive and negative aspects of anything related
-          to technology. So lets understand the attack cycle of social
-          engineering.
+          to technology. So lets understand the attack cycle of social engineering.
         </p>
-        <ol>
-          <li>
+        <ol class="list-para-parent">
+          <li class="list-paragraph">
             <span class="sub-headings">INVESTIGATION</span> The very first phase of attack where attacker
             prepares the ground for attack. In this they will choose victim very
             smartly. Then there comes the role of information gathering process
@@ -232,7 +204,7 @@
             that could have more probability to be successful.
           </li>
 
-          <li>
+          <li class="list-paragraph">
             <span class="sub-headings">HOOK</span> The second phase is making connection with victim. They will
             approach victim with very friendly nature and by spinning a story
             they will try their best to target your emotions and winning your
@@ -243,7 +215,7 @@
             also the method which is adopted.
           </li>
 
-          <li>
+          <li class="list-paragraph">
             <span class="sub-headings">PLAY</span> After making the successful connection, hacker will execute
             the attack. Again depending upon the type of attack, execution will
             be in different form. Like after winning trust of victim they
@@ -254,7 +226,7 @@
             him.
           </li>
 
-          <li>
+          <li class="list-paragraph">
             <span class="sub-headings">EXIT</span> The hack is incomplete for any hacker without deleting all
             traces of his hack. They will delete all interaction done with
             victim. Covering each and every attack, they will remove all traces
