@@ -79,60 +79,73 @@
       </style></noscript
     >
     <style amp-custom>
-      body{
+      body {
         color: #333;
-        font-family:sans-serif;
+        font-family: sans-serif;
       }
-      main{
+      main {
         margin-top: 3rem;
       }
-      .navigation-parent{
+      .navigation-parent {
         position: fixed;
         top: 0;
         width: 100%;
         background-color: #344397;
         z-index: 9999;
       }
-      .navigation{
-        margin:0;
+      .navigation {
+        margin: 0;
         padding: 0;
         display: flex;
         list-style-type: none;
       }
-      .navigation a{
+      .navigation a {
         height: 100%;
         padding: 1rem;
         box-sizing: border-box;
-/*         border-right: 2px solid white; */
+        /*         border-right: 2px solid white; */
         opacity: 0.85;
         display: block;
         color: white;
         text-decoration: none;
         font-weight: bold;
       }
-      .navigation a:hover{
+      .navigation a:hover {
         opacity: 1;
+        background-color: #202f83;
       }
-      .wrapper{
+      .wrapper {
         box-sizing: border-box;
         padding: 0 10%;
+        font-size: 1.2rem;
       }
-      .hero{
+      .hero {
         width: 100%;
       }
-      h1{
+      h1 {
         font-size: 3rem;
       }
-      h2{
+      h2 {
         font-size: 2rem;
       }
-      p{
-        font-size: 1.2rem;
+      p {
         padding: 0 1rem 1rem 1rem;
       }
-      footer{
+      span.sub-headings {
+        font-size: 2rem;
+        display: block;
+        font-weight: bold;
+      }
+      span.sub-headings::after {
+        content: ":";
+      }
+      footer {
         height: 5rem;
         background-color: #344397;
+      }
+      .dev-date {
+        color: red;
+        font-size: 2em;
       }
     </style>
   </head>
@@ -141,76 +154,74 @@
       <nav>
         <ul class="navigation">
           <li><a href="#">Home</a></li>
+          <li><a href="attack-cycle.html">Attack Cycle</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <amp-img
-    class="hero"
-    alt="Social Engineering"
-    src="assets/image.jpeg"
-    width="900"
-    height="675"
-    layout="responsive"
-  >
-  </amp-img>
+        class="hero"
+        alt="Social Engineering"
+        src="assets/image.jpeg"
+        width="900"
+        height="675"
+        layout="responsive"
+      >
+      </amp-img>
       <article class="wrapper">
         <h1>Social Engineering</h1>
-      <p>
-        Ever wondered how people got trapped in frauds like paid on some fake
-        website which looks almost similar to the original one or clicking on some
-        link that takes away all your money from bank. Well, this is not at all
-        any magic that they perform but a well planned attack which in technical
-        terms is called as social engineering attack.This website is gonna help
-        you to get aware of most of these attacks so that you can't be the next
-        victim of hackers.
-      </p>
+        <p>
+          Ever wondered how people got trapped in frauds like paid on some fake
+          website which looks almost similar to the original one or clicking on
+          some link that takes away all your money from bank. Well, this is not
+          at all any magic that they perform but a well planned attack which in
+          technical terms is called as social engineering attack.This website is
+          gonna help you to get aware of most of these attacks so that you can't
+          be the next victim of hackers.
+        </p>
 
-      <h2>What is Social Engineering?</h2>
-      <p>
-        You can find best answers on google for this in techinal terms, however,
-        the simplest answer can be like it is a kind of human mind or physicology
-        hacking. We have already seen this as an art where artist guesses number
-        or name in your mind but getting your sensitive data(like password,bank
-        details etc) out of your mind for illegal purpose makes it a crime thats
-        what these hackers do. Even the greatest hacker of all time Kevin D.
-        Mitnick has said there's nothing that can't be hacked with social
-        engineering.
-        <br />
-        So basically what social engineer is doing is winning your trust here and
-        letting you do what he wants. And here you got hacked.
-      </p>
+        <h2>What is Social Engineering?</h2>
+        <p>
+          You can find best answers on google for this in techinal terms,
+          however, the simplest answer can be like it is a kind of human mind or
+          physicology hacking. We have already seen this as an art where artist
+          guesses number or name in your mind but getting your sensitive
+          data(like password,bank details etc) out of your mind for illegal
+          purpose makes it a crime thats what these hackers do. Even the
+          greatest hacker of all time Kevin D. Mitnick has said there's nothing
+          that can't be hacked with social engineering.
+          <br />
+          So basically what social engineer is doing is winning your trust here
+          and letting you do what he wants. And here you got hacked.
+        </p>
 
-      <h2>Let's understand with some example :</h2>
-      <p>
-        Suppose you are an employee of a company and you need to show you identity
-        card and also you need to pass door with biometric lock.Now how hacker
-        will get into company? Here he can use you.Yes you.
-        <br />
-        He will make a fake identity card which looks similar to yours( by
-        information gathering technique).Then he will carry bags in both of his
-        hands to seem like a helpless person.Then you will see that he is wearing
-        identity card and think he must be an employee of your company, and its
-        human nature to help a helpless person thus you will open door for him and
-        he is in.
-      </p>
+        <h2>Let's understand with some example:</h2>
+        <p>
+          Suppose you are an employee of a company and you need to show you
+          identity card and also you need to pass door with biometric lock.Now
+          how hacker will get into company? Here he can use you.Yes you. He will
+          make a fake identity card which looks similar to yours(by information
+          gathering technique).Then he will carry bags in both of his hands to
+          seem like a helpless person.Then you will see that he is wearing
+          identity card and think he must be an employee of your company, and
+          its human nature to help a helpless person thus you will open door for
+          him and he is in.
+        </p>
 
-      <p>
-        On the phone, social engineer might call and pretend to be a fellow
-        employee or a trusted outside authority (such as law enforcement or an
-        auditor).
-      </p>
+        <p>
+          On the phone, social engineer might call and pretend to be a fellow
+          employee or a trusted outside authority (such as law enforcement or an
+          auditor).
+        </p>
 
-      <p>
-        Online, Social networking sites have made social engineering attacks
-        easier to conduct. Today's attackers can go to sites like LinkedIn and
-        find all of the users that work at a company and gather plenty of detailed
-        information that can be used to further an attack.
-      </p>
+        <p>
+          Online, Social networking sites have made social engineering attacks
+          easier to conduct. Today's attackers can go to sites like LinkedIn and
+          find all of the users that work at a company and gather plenty of
+          detailed information that can be used to further for an attack.
+        </p>
       </article>
     </main>
-    <footer>
-      
-    </footer>
+    <footer></footer>
   </body>
 </html>
