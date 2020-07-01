@@ -1,141 +1,21 @@
 <!DOCTYPE html>
-<html amp lang="en">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
     <title>Social Engineering</title>
-    <link
-      rel="canonical"
-      href="https://amp.dev/documentation/guides-and-tutorials/start/create/basic_markup/"
-    />
+    <link rel="stylesheet" href="css/default.css">
     <meta
       name="viewport"
       content="width=device-width,minimum-scale=1,initial-scale=1"
     />
-    <script type="application/ld+json">
+    <!-- <script type="application/ld+json">
       {
         "@context": "http://schema.org",
         "@type": "Website",
         "headline": "Social Engneering",
         "datePublished": "2020-07-01"
       }
-    </script>
-    <style amp-boilerplate>
-      body {
-        -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-        -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-        -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-        animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-      }
-      @-webkit-keyframes -amp-start {
-        from {
-          visibility: hidden;
-        }
-        to {
-          visibility: visible;
-        }
-      }
-      @-moz-keyframes -amp-start {
-        from {
-          visibility: hidden;
-        }
-        to {
-          visibility: visible;
-        }
-      }
-      @-ms-keyframes -amp-start {
-        from {
-          visibility: hidden;
-        }
-        to {
-          visibility: visible;
-        }
-      }
-      @-o-keyframes -amp-start {
-        from {
-          visibility: hidden;
-        }
-        to {
-          visibility: visible;
-        }
-      }
-      @keyframes -amp-start {
-        from {
-          visibility: hidden;
-        }
-        to {
-          visibility: visible;
-        }
-      }
-    </style>
-    <noscript
-      ><style amp-boilerplate>
-        body {
-          -webkit-animation: none;
-          -moz-animation: none;
-          -ms-animation: none;
-          animation: none;
-        }
-      </style></noscript
-    >
-    <style amp-custom>
-      body {
-        color: #333;
-        font-family: sans-serif;
-      }
-      main {
-        margin-top: 3rem;
-      }
-      .navigation-parent {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        background-color: #344397;
-        z-index: 9999;
-      }
-      .navigation {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        list-style-type: none;
-      }
-      .navigation a {
-        height: 100%;
-        padding: 1rem;
-        box-sizing: border-box;
-        /*         border-right: 2px solid white; */
-        opacity: 0.85;
-        display: block;
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-      }
-      .navigation a:hover {
-        opacity: 1;
-        background-color: #202f83;
-      }
-      .wrapper {
-        box-sizing: border-box;
-        padding: 0 10%;
-        font-size: 1.2rem;
-      }
-      .hero {
-        width: 100%;
-      }
-      h1 {
-        font-size: 3rem;
-      }
-      h2 {
-        font-size: 2rem;
-      }
-      p {
-        padding: 0 1rem 1rem 1rem;
-      }
-      footer {
-        height: 5rem;
-        background-color: #344397;
-      }
-    </style>
+    </script> -->
   </head>
   <body>
     <header class="navigation-parent">
@@ -145,18 +25,15 @@
           <li><a href="attack-cycle.html">Attack Cycle</a></li>
         </ul>
       </nav>
+      <div id="scroll-indicator" role="scrollbar"></div>
     </header>
     <main>
-      <amp-img
+      <img
         class="hero"
         alt="Social Engineering"
-        src="assets/index-hero.jpeg"
-        width="900"
-        height="560"
-        layout="responsive"
-      >
-      </amp-img>
+        src="assets/index-hero.jpeg">
       <article class="wrapper">
+        <span class="top-caption">From Art to crime, the journey ends up in Jail.</span>
         <h1>Social Engineering</h1>
         <p>
           Ever wondered how people got trapped in frauds like paid on some fake
@@ -211,5 +88,6 @@
       </article>
     </main>
     <footer></footer>
+    <script src="js/default.js"></script>
   </body>
 </html>

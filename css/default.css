@@ -1,0 +1,113 @@
+:root{
+    --UIcolor1: #344396;
+    --UIcolor1-dark: #202f82;
+    --UIcolor2: #ff009d;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    color: #333;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  main {
+    margin-top: 3rem;
+  }
+  /* navigation bar */
+  .navigation-parent {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.navigation {
+    background-color: var(--UIcolor1);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+  }
+  .navigation a {
+    height: 100%;
+    padding: 1rem;
+    opacity: 0.85;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .navigation a:hover {
+    opacity: 1;
+    background-color: var(--UIcolor1-dark);
+  }
+  /* scroll indicator*/
+  #scroll-indicator{
+      height: 5px;
+      width: 0;
+      background-color: var(--UIcolor2);
+  }
+    /* wrapper */
+  .wrapper {
+    padding: 0 10%;
+    font-size: 1.2rem;
+  }
+  .hero {
+    width: 100%;
+  }
+  /* top caption */
+  .top-caption::before{
+      content: "\"";
+  }
+  .top-caption{
+      padding: 2em;
+      font-style: italic;
+      font-family: serif;
+      display: block;
+      font-weight: 600;
+      text-align: center;
+  }
+  .top-caption::after{
+    content: "\"";
+    }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    padding: 0 1rem 1rem 1rem;
+  }
+  ol.list-para-parent{
+    list-style: none;
+    padding: 0;
+    counter-reset: first-instance;
+  }
+  li.list-paragraph{
+    counter-increment: first-instance;
+    padding: 0 1.5rem 2rem 1.5rem;
+  }
+  span.sub-headings::before{
+    color: var(--UIcolor1);
+    position: absolute;
+    top:0;
+    left: -1em;
+    content: counter(first-instance)". ";
+  }
+  span.sub-headings{
+    position: relative;
+    font-size: 2rem;
+    display: block;
+    font-weight: bold;
+    margin-bottom:0.5rem;
+  }
+  span.sub-headings::after{
+    content: ":";
+  }
+  /* footer */
+  footer {
+    height: 5rem;
+    background-color: var(--UIcolor1);
+  }
