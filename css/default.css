@@ -89,6 +89,16 @@ body {
     counter-increment: first-instance;
     padding: 0 1.5rem 2rem 1.5rem;
   }
+  /* ol.sub-list-parent{
+    list-style: none;
+    padding: 0;
+    counter-reset: sub-list;
+  }
+  li.sub-list{
+    padding: 0 1.5rem 2rem 1.5rem;
+    counter-increment: sub-list;
+  } */
+
   span.sub-headings::before{
     color: var(--UIcolor1);
     position: absolute;
