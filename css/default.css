@@ -1,3 +1,7 @@
+@font-face{
+  font-family: "Amaranth";
+  src: url("../fonts/Amaranth-Regular.ttf") format("truetype");
+}
 :root{
     --UIcolor1: #344396;
     --UIcolor1-dark: #202f82;
@@ -61,9 +65,13 @@ body {
   
   h1 {
     font-size: 3rem;
+    font-family: "Amaranth",sans-serif;
+    font-weight: bold;
   }
   h2 {
     font-size: 2rem;
+    font-family: "Amaranth",sans-serif;
+    font-weight: bold;
   }
   p {
     padding: 0 1rem 1rem 1rem;
@@ -86,6 +94,7 @@ body {
   }
   span.sub-headings{
     position: relative;
+    font-family: "Amaranth",sans-serif;
     font-size: 2rem;
     display: block;
     font-weight: bold;
