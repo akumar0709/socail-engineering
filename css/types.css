@@ -14,7 +14,7 @@ li.list-paragraph{
     display: flex;
     flex-wrap: wrap;
 }
-li.list-paragraph *{
+li.list-paragraph > *{
     width: 100%;
     margin: 0.5rem;
     flex-basis: 100%;
@@ -37,12 +37,16 @@ span.caption-heading{
     li.list-paragraph{
         padding: 0 1rem 2rem 1rem;
     }
-    li.list-paragraph *{
+    li.list-paragraph > *{
         width: 100%;
         margin: 0;
         flex-basis: 100%;
     }
     figure.pic-with-caption{
         margin: 1rem 0;
+    }
+    figure.pic-with-caption img{
+        width: 100%;
+        
     }
 }
