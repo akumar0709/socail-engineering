@@ -93,7 +93,7 @@ body {
     color: var(--UIcolor1);
     position: absolute;
     top:0;
-    left: -1.2em;
+    left: -1em;
     content: counter(first-instance)". ";
     text-align: center;
   }
