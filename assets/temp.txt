@@ -1,15 +1,1 @@
-Types of Social Engineeering Attacks:
-We need to understand the various types of this attack, because this is performed on common people.Your single mistake will lead to your great loss that maybe financially,emotionally and more.
-A).Physicological Attack: These are mostly technical attack that is performed over internet through various means.In this hacker plays with your mind, let you enter senstive information and thus take out all your info.
-1.Phishing Attacks :: These are the most common attack among all we are discussing.To acquire your senstive information, hacker targets you via fake website, emails, ads, Paypal website , free offers etc.
-Spear Phishing: (image) It is a customized attack on a specific employee and company.
-Whaling Phishing:(image) It is specified tyoe of spear phishing where employee at senior post is targeted.
-Vishing:(image)It is also called as Voice Phishing where victims are targeted via call(Over VoIP).
-(Images of fake email, website , offer letter)
-2.Pretexting attacks :: In this hacker win your trust by inventing convincing scenerio, and then ask you your private information. It may be like offering you a job and ask you to fill priavte information in some form for company.
-Another scenerio might be like giving news of winning lottery and asking you to give bank details for transfer of money.
-3.Spoofing :: Here hacker sends you email, message intimating the person that you can trust or think like this is a true message. Like employee getting email from his boss(actually hacker) to give credentials as he wants to see some important records immediately.
-B).Physical Attack: In this type of attack hacker is physically present around you and hacking you.
-1.Dumpster Diving :: In this hacker searches through trash for senstive information like some kind of sticky notes on which old/new password was written.Getting details of employee in telephone directory and more like this.
-2.Shoulder Surfing :: Here hacker tries to see password over your shoulder when you try to login.
-3.Staff Impersonation :: In this scenerio hacker will call himself as trusty employee of company and will ask your information for emergency login. Here they can threat you to block your account or firing you out of company. So playing with your emotions is not a big deal for them.
+10. Don't respond to any messages, specially setting from an international number.

@@ -93,8 +93,9 @@ body {
     color: var(--UIcolor1);
     position: absolute;
     top:0;
-    left: -1em;
+    left: -1.2em;
     content: counter(first-instance)". ";
+    text-align: center;
   }
   span.sub-headings{
     position: relative;

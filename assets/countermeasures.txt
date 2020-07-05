@@ -1,0 +1,39 @@
+  Countermeasures ::
+
+1.Think before click ->
+The best possible way a hacker can enter into your system is through link or URL which he might sent through email, social media, etc.These links seems like  a proper one without leaving any suspicious thought in your mind. These link actually contains some malware or virus through which all data could be sent to hacker. This got activated when you click on this and might take you on some website which will be the original one but malware like trojan horse will run in background.
+Now question will come in your mind, how to know whether link is safe or not, follow some steps for your answer:
+1. Open www.virustotal.com                                     [image- virustotal-1.png]
+2.Give URL or link under URL domain.                 [image- virustotal-2.png]
+3.Check for results and verify.                                  [image- virustotal-3.png]
+
+2.Research the sources ->
+Always be careful of any unsolicited messages. Check the domain links to see if they are real, and the person sending you the email if they are actual members of the organization. Utilize a search engine, go to the company�s website, check their phone directory. These are all simple, easy way to avoid getting spoofed. Hovering your cursor on a link before you actually click on it will reveal the link at the bottom, and is another way to make sure you are being redirected to the correct company�s website.
+
+3.Email Spoofing -> 
+As you know hacker needs to reach out if he wants to hack you.Thus email could be the best way to do that. He will take any trusted email that is spoofable and will sent mail through trusted person's name.So lets have a look how to check whether email is secured or not.
+1.Call sender if possible and verify whether he has sent any email and does it contain any file, link, or other attachment.
+2.Always read email header before opening whole message and clicking on any link                                                                                                               [email-1.png]
+3.Check for reciever authentication by hovering over his photo and if there is question mark then user might not be the legimiate sender.     [email-2.png]
+[email.png]
+
+4.Don't download until 100% sure -> 
+From the email you get an idea whether it could have any file to be downloaded. But still for security reason ask sender on phone whether he has sent any attachment, or tell sender before to write keyword like URGENT in subject if anything needs to be downloaded.
+
+5.Don't believe in offers and prizes easily -> 
+Offers and prizes are used as baits to get you in trap.Hacker throws pendrive in coffee shop and getting it free you take it up and start using it directly to your computer and loses everything. Then online cheap offers make you spent money and in return you get nothing.Recent case of mobile phones have been seen over social media handles where they promise to give smartphone in 5000 which actual cost you 35000.Don't get fooled by them.              [fraud.png] [fraud-2]                                                                                                                                                                   
+
+6.Don't send your personal innformation ->
+For your information, no company wants your private information to be sent over email or social media. Write the least information if someone asked for that you had share publicaly even. Don't share password even via call, doesn't matter how important it is.If someone in your company needs data urgent then visit your company  and check whole scenerio instead.
+
+7.Set your spam  filters to high->
+Your email softwares has spam filters. Just check it out and and set it to high to avoid risky and spoofed mails to flood into your inbox.
+In Gmail,  Settings>Filters and blocked addresses>Create filter.
+
+8.Secure your device->
+Use VPN, firewall, and more security measures that you can afford for your devices. Never hesitate to spend money on security. Today security is more important than buying the branded stuff.
+
+9.Be aware of risk->
+Try to be updated what is going on into market. You should know a little about new malware, which app or software got updated and check for update in your device too. Always double or triplle check the risk. Make sure your antivirus is updated and working properly. 
+
+10. Don't respond to any messages, specially setting from an international number.
