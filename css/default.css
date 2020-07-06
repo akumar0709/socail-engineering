@@ -82,26 +82,26 @@ body {
       text-align: center;
   }
   @media all and (max-width: 600px){
-      .navigation{
-          display: none;
-      }
-      .menu-icon-container{
-          display: flex;
-      }
-      .navigation-mobile{
-          display: block;
-      }
+    .navigation{
+        display: none;
+    }
+    .menu-icon-container{
+        display: flex;
+    }
+    .navigation-mobile{
+        display: block;
+    }
   }
   /* scroll indicator*/
   #scroll-indicator{
-      height: 5px;
-      width: 0;
-      background-color: var(--UIcolor2);
+    height: 5px;
+    width: 0;
+    background-color: var(--UIcolor2);
   }
     /* wrapper */
   .wrapper {
     width: 100%;
-    padding: 0 10%;
+    padding: 1rem 10% 0 10%;
     font-size: 1.2rem;
   }
   .hero {
@@ -193,6 +193,26 @@ body {
   footer *{
     font-weight: normal;
   }
+  .connect{
+    padding: 0.5rem;
+  }
+  .connect *{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+  .connect *:hover{
+    opacity: 1;
+  }
+  .connect svg{
+    fill: white;
+    vertical-align: middle;
+    height: 1rem;
+    margin: 0 0.25rem 0 0;
+  }
 
   @media all and (max-width: 600px){
     h1{
@@ -204,4 +224,37 @@ body {
     span.sub-headings{
       font-size: 1.5rem;
     }
+  }
+
+  .modal-0{
+    width: 100vw; 
+    height: 100vh; 
+    position: fixed; 
+    z-index: 10000;
+    top: 0; 
+    left: 0; 
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+  }
+  .modal-0 img{
+    display: block; 
+    margin: auto; 
+    width: 90%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%)
+  }
+  .close-modal{
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: large;
+    opacity: 0.5;
+    position: absolute; 
+    top:0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    display: block;
   }
