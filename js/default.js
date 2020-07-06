@@ -1,9 +1,18 @@
-//top horizontal sscroll bar
+//top horizontal scroll bar
 window.addEventListener("scroll",()=>{
     const totalHeight = document.body.scrollHeight-window.innerHeight;
     document.querySelector("#scroll-indicator").style.width= (window.scrollY/totalHeight * 100)+"%";
 });
+//active tab
+document.querySelectorAll(".navigation-parent li a[href='#']").forEach((elem)=>{
+    elem.addEventListener("click",(e)=>{
+        e.preventDefault();
+    })
+    elem.style.backgroundColor="var(--UIcolor1-dark)";
+});
 
+
+//mobile navigation
 const menuIcon = document.querySelector(".menu-icon-container");
 const navMob = document.querySelector(".navigation-mobile");
 menuIcon.addEventListener("click",()=>{
@@ -16,6 +25,7 @@ closeMenu.forEach(element=>{
     });
 });
 
+//image modal
 const mod0 = document.querySelector(".modal-0");
 const closeMod = document.querySelector(".close-modal");
 const allImgs = document.querySelectorAll(".pic-with-caption img");
